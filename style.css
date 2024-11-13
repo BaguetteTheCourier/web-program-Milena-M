@@ -1,0 +1,21 @@
+.prejaki_naslov
+    {
+        text-align: center;
+        color: rgb(41, 15, 15);
+        background-color: rgb(184, 91, 91);
+        border-radius: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+.prejaki_paragrafi
+    {
+        text-align:start;
+        background-color: rgb(184, 91, 91);
+        border: solid 3px rgba(61, 23, 23, 0.856);
+        border-radius: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
