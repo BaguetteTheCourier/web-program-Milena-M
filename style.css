@@ -1,4 +1,4 @@
-.prejaki_naslov
+/*.prejaki_naslov
     {
         text-align: center;
         color: rgb(41, 15, 15);
@@ -19,3 +19,52 @@
         font-weight: 100;
         font-style: normal;
     }
+        */
+.nav ul
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #AB886D;
+        
+    }
+          
+.nav li {
+    float: left;
+    border-right:1px solid #E4E0E1;
+    }
+          
+.nav li:last-child {
+            border-right: none;
+          }
+          
+.nav li a 
+    {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: "Roboto", serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
+.nav li a:hover:not(.active) 
+        {
+            background-color: #493628;
+        }
+          
+.active 
+    {
+        background-color: #D6C0B3;
+    }
+.Roboto_Serif
+{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+      
