@@ -9,8 +9,8 @@
     <title>Document</title>
     <link rel = "stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <style>
     table, td, th {
@@ -19,6 +19,9 @@
     } 
 </style>
 <body style = "background-color: #E4E0E1;">
+    <div class="header">
+        <h1>Zrnca vrednosti</h1>
+    </div>
     <div class="nav">
         <ul>
             <li><a class="active" href="#VK">Vrste kafe</a></li>
@@ -29,63 +32,69 @@
         </ul>
     </div>
 
-    <div>
-        <h1 class="Roboto_Serif"> Vodic kroz vrste kafe</h1>
-        <p class="Roboto_Serif">Kafa dolazi u raznim oblicima i ukusima, a svaka vrsta ima svoje jedinstvene karakterisike.</p>
+    <div class="pocetna_slika">
+        <h1 class="roboto-condensedBela "><b>Vodic kroz vrste kafe</b></h1>
+        <p class="roboto-condensedBela ">Kafa dolazi u raznim oblicima i ukusima, a svaka vrsta ima svoje jedinstvene karakterisike.</p>
     </div>
     
-    <h2 id="VK", class="Roboto_Serif">Vrste kafe</h1>
-    <div class = "flex-container">
+    <h2 id="VK", class="roboto-condensed">Vrste kafe</h1>
 
-    <div class="card-client">
-        <p>
-            <img src="espresso.jpg" alt="Espresso" width="200" height="150">
-        </p>
-        <b>Espresso:</b> Jaka kafa koja se priprema pod pritiskom.
-        
-    </div>
+    <div class = "card">
 
-    <div class="card-client">
-        <p>
-            <img src="latte.jpg" alt="Latte" width="200" height="150">
-            </p>
-        <b>Latte:</b> Kafa sa mlekom, obicno se posluzuje sa penom
-        
-    </div>
+        <div class = "flex-container">
 
-    <div class="card-client">
-        <p>
-            <img src="cappuccino.jpg" alt="Cappucino" width="200" height="150">
-            </p>
-        <b>Cappucino:</b> Espresso sa jednakim delovima mleka i mlecne pene
+            <div class="card-client">
+                <p>
+                    <img src="espresso.jpeg" alt="Espresso" width="200" height="200">
+                </p>
+                <b>Espresso:</b> Jaka kafa koja se priprema pod pritiskom.
         
-    </div>
+            </div>
 
-    <div class="card-client">
-        
-        <p>
-            <img src="americano.jpg" alt="Americano" width="200" height="150">
-            </p>
-            <b>Americano:</b> Espresso razblazen vodom
-    </div>
+            <div class="card-client">
+                <p>
+                    <img src="latte.jpg" alt="Latte" width="200" height="200">
+                    </p>
+                <b>Latte:</b> Kafa sa mlekom, obicno se posluzuje sa penom
+                
+            </div>
+
+            <div class="card-client">
+                <p>
+                    <img src="cappuccino.jpg" alt="Cappucino" width="200" height="200">
+                    </p>
+                <b>Cappucino:</b> Espresso sa jednakim delovima mleka i mlecne pene
+                
+            </div>
+
+            <div class="card-client">
+                
+                <p>
+                    <img src="americano.jpg" alt="Americano" width="200" height="200">
+                    </p>
+                    <b>Americano:</b> Espresso razblazen vodom
+            </div>
+        </div>
     </div>
     <hr>
-    <h2 id="KP">Kako pripremiti</h2>
-    <dl>
-        <dt><b>Espresso</b></dt>
-        <dd>Pripremite espresso apara
-            t i finu kafu. Priprema traje oko 25-30 sekundi.
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZuQu12vMQZM?si=uinhilsNEPlmRcS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></dd>
-            
-        <dt><b>Latte</b></dt>
-        <dd>Pripremite espresso, zagrejte mleko i dodajte ga u espresso sa malo pene
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UxwscVIZ8Qg?si=SnfqfbrHkuUMzjmh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </dd>
-        <dt><b>Cappuccino</b></dt>
-        <dd>Pripremite espresso, dodajte jednaku kolicinu mleka i pene
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gvPetTPFsZM?si=GmnOxeREJyhsjuXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </dd>
-    </dl>
+    <div class="card">
+        <h2 id="KP", class="roboto-condensed"><b>Kako pripremiti</b></h2>
+        <dl class = "roboto-condensed">
+            <dt><b>Espresso</b></dt>
+            <dd>Pripremite espresso aparat i finu kafu. Priprema traje oko 25-30 sekundi.</dd>
+            <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/ZuQu12vMQZM?si=uinhilsNEPlmRcS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></dd>
+                
+            <dt><b>Latte</b></dt>
+            <dd>Pripremite espresso, zagrejte mleko i dodajte ga u espresso sa malo pene</dd>
+            <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/UxwscVIZ8Qg?si=SnfqfbrHkuUMzjmh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </dd>
+
+            <dt><b>Cappuccino</b></dt>
+            <dd>Pripremite espresso, dodajte jednaku kolicinu mleka i pene</dd>
+            <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/gvPetTPFsZM?si=GmnOxeREJyhsjuXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </dd>
+        </dl>
+    </div>
     <hr>
     <h2 id="RZU">Resursi za ucenje</h2>
     <ul>
