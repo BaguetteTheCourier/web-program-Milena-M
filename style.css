@@ -26,75 +26,135 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #AB886D;
-        
+        background-color: #AB886D;   
     }
-          
-.nav li {
-    float: left;
-    border-right:1px solid #E4E0E1;
+              
+.nav li 
+    {
+        float: left;
+        border-right:1px solid #E4E0E1;
     }
-          
-.nav li:last-child {
-            border-right: none;
-          }
-          
+              
+.nav li:last-child 
+    {
+        border-right: none;
+    }
+              
 .nav li a 
     {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-family: "Roboto", serif;
-            font-weight: 400;
-            font-style: normal;
-          }
-          
+        display: block;
+        color:#E4E0E1;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: "Roboto Condensed", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+              
 .nav li a:hover:not(.active) 
-        {
-            background-color: #493628;
-        }
-          
+    {
+        background-color: #493628;
+    }
+              
 .active 
     {
         background-color: #D6C0B3;
     }
-.Roboto_Serif
-{
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
-.card-client {
-    background: #AB886D;
-    width: 13rem;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 4px solid #D6C0B3;
-    box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
-    border-radius: 10px;
-    text-align: center;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    transition: all 0.3s ease;
-  }
-  
-  .card-client:hover {
-    transform: translateY(-10px);
-  }
-
-  .flex-container {
-    display: flex;
-}
-
-  .flex-container > div {
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
-
+.shadows-into-light-regularBela {
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color:#E4E0E1;
+        font-size: 35px;
+      }
       
+
+
+.roboto-condensedBela 
+    {
+      font-family: "Roboto Condensed", serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      color:#E4E0E1;
+      text-align: center;
+    }
+
+.card-client 
+    {
+        background: #AB886D;
+        width: 13rem;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 4px solid #D6C0B3;
+        box-shadow: 0 6px 10px #896e59;
+        border-radius: 10px;
+        text-align: center;
+        color:#E4E0E1;
+        font-family: "Roboto Condensed", serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        transition: all 0.3s ease;
+    }
+      
+.card-client:hover 
+    {
+        transform: translateY(-10px);
+    }
+    
+.flex-container 
+    {
+        display: flex;
+    }
+    
+.flex-container > div 
+    {
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+.pocetna_slika
+    {
+        background-image: url(pocetna_pozadinav2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20%;
+        width: auto;
+        height: auto;
+    }
+    
+.header
+    {
+        background-color: #AB886D;
+        border-bottom: 1px solid #E4E0E1;
+        padding: 1px;
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 100;
+        font-style: normal;
+        color:#E4E0E1;
+        font-size: 15px;
+    }
+    
+.roboto-condensed 
+    {
+      font-family: "Roboto Condensed", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      color:#493628
+    }
+
+.card 
+{
+    background-color:#D6C0B3;
+    padding: 20px;
+    margin-top: 20px;
+}
+          
