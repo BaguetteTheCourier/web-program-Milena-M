@@ -1,0 +1,49 @@
+.nav ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #72b1d8;   
+        }
+                  
+.nav li 
+        {
+            float: left;
+            border-right:1px solid #cfe9fa;
+        }
+                  
+.nav li:last-child 
+        {
+            border-right: none;
+        }
+                  
+.nav li a 
+        {
+            display: block;
+            color:#cfe9fa;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: "Roboto Condensed", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+                  
+.nav li a:hover:not(.active) 
+        {
+            background-color: #468dca;
+        }
+
+.carousel-inner img {
+            width: 500px;
+            height: 500px; /* Postavite fiksnu visinu prema potrebama */
+        }
+
+.card
+{
+    background-color:#72b1d8;
+    padding: 20px;
+    margin-top: 20px;
+}
