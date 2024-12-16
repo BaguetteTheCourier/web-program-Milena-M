@@ -4,13 +4,13 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: #72b1d8;   
+            background-color: #7db5c0;   
         }
                   
 .nav li 
         {
             float: left;
-            border-right:1px solid #cfe9fa;
+            border-right:1px solid #DDDDD5;
         }
                   
 .nav li:last-child 
@@ -21,7 +21,7 @@
 .nav li a 
         {
             display: block;
-            color:#cfe9fa;
+            color:#DDDDD5;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -33,7 +33,7 @@
                   
 .nav li a:hover:not(.active) 
         {
-            background-color: #468dca;
+            background-color: #4e93a8;
         }
 
 .carousel-inner img {
@@ -43,7 +43,100 @@
 
 .card
 {
-    background-color:#72b1d8;
+    background-color:#7db5c0;
     padding: 20px;
     margin-top: 20px;
+    text-align: center;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    justify-content: space-evenly; /* Space items evenly across the row */
+    align-items: center; /* Center items vertically */
+    gap: 5px; /* Add spacing between items */
+}
+
+
+.flex-container > div 
+        {
+            margin: 10px;
+            padding: 20px;
+            font-size: 15px;
+        }
+
+/* From Uiverse.io by joe-watson-sbf */ 
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height:310px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 #417e91;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid #336d7f;
+    border-radius: 1rem;    
+  }
+  
+  .flip-card-front {
+    background: linear-gradient(120deg, #a7bfbf 60%, #C1C7C7 88%,
+    #6eacac 40%, #C1C7C7 48%);
+    color: #336d7f;
+  }
+  
+  .flip-card-back {
+    background: linear-gradient(120deg, #a7bfbf 30%, #C1C7C7 88%,
+    #6eacac, #C1C7C7 78%);
+    color: white;
+    transform: rotateY(180deg);
+    
+  }
+
+  .flip-card-back iframe {
+    width: 100%;
+    height: 100%;
+    border: 0; 
+    border-radius: 1rem; 
+}
+
+.flip-card-front img {
+    width: 85%;
+    height: 85%;
+    object-fit: cover; 
+    border-radius: 1rem;
+    text-align: center; 
+}
+
+
+
