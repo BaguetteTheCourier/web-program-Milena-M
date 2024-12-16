@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color: #cfe9fa;">
+<body style="background-color: #C1C7C7;">
     <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -65,47 +65,78 @@
             <li><a href="#KO">Kontakt</a></li>
         </ul>
     </div>
-
-    <div class = "card">
-        <h2 id="IG">Istorija grada</h2>
-        <p>Novi Sad je osnovan 1694. godine kada su srpski trgovci i zanatlije naselili područje preko puta Petrovaradinske tvrđave, izgrađene na strateškom položaju iznad Dunava. Ubrzo je mesto postalo značajan trgovački i kulturni centar, a 1748. godine dobilo je status slobodnog kraljevskog grada pod nazivom "Neoplanta" (Novi Sad na latinskom).
-
-            Tokom 19. veka, Novi Sad je bio poznat kao "Srpska Atina" zbog svog doprinosa razvoju srpske kulture, obrazovanja i umetnosti. Grad je bio dom brojnih značajnih ličnosti, poput Đure Daničića i Jovana Jovanovića Zmaja. Tokom Prvog i Drugog svetskog rata, grad je pretrpeo velike gubitke, ali je nakon njih obnovljen i razvijen u moderan regionalni centar.</p>
+    
+    <div class="flex-container">
+        <div class = "card">
+            <h2 id="IG">Istorija grada</h2>
+            <p>Novi Sad je osnovan 1694. godine kada su srpski trgovci i zanatlije naselili područje preko puta Petrovaradinske tvrđave, izgrađene na strateškom položaju iznad Dunava. Ubrzo je mesto postalo značajan trgovački i kulturni centar, a 1748. godine dobilo je status slobodnog kraljevskog grada pod nazivom "Neoplanta" (Novi Sad na latinskom).</p>
+            <p>Tokom 19. veka, Novi Sad je bio poznat kao "Srpska Atina" zbog svog doprinosa razvoju srpske kulture, obrazovanja i umetnosti. Grad je bio dom brojnih značajnih ličnosti, poput Đure Daničića i Jovana Jovanovića Zmaja. Tokom Prvog i Drugog svetskog rata, grad je pretrpeo velike gubitke, ali je nakon njih obnovljen i razvijen u moderan regionalni centar.</p>
+        </div>
     </div>
+
+    <br>
 
     <div class="card">
         <h2 id="AG">Atrakcije grada</h2>
-        <p>Novi Sad, glavni grad Vojvodine, smešten je na obalama Dunava i poznat je po svojoj bogatoj istoriji, kulturnoj raznolikosti i opuštenoj atmosferi. Grad predstavlja savršen spoj starog i modernog, nudeći posetiocima raznovrsne atrakcije – od istorijskih znamenitosti i kulturnih institucija do prirodnih lepota i živopisnih ulica.</p>
+        <p>
+            Novi Sad, glavni grad Vojvodine, smešten je na obalama Dunava i poznat je po svojoj bogatoj istoriji, kulturnoj raznolikosti i opuštenoj atmosferi. Grad predstavlja savršen spoj starog i modernog, nudeći posetiocima raznovrsne atrakcije – od istorijskih znamenitosti i kulturnih institucija do prirodnih lepota i živopisnih ulica.
+        </p>
+    
+        <div class="flex-container">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p><img src="petrovaradin_grad.jpg" alt="Petrovaradinska tvrđava" width="200" height="200"></p>
+                        <b>Petrovaradinska tvrđava</b>
+                        <p>Izgrađena u 18. veku, predstavlja simbol grada.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p><iframe src="https://www.google.com/maps/embed?..." width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+                    </div>
+                </div>
+            </div>
         
-        <div>
-            <p>
-                <img src="espresso.jpeg" alt="Espresso" width="200" height="200">
-            </p>
-            <b>Petrovaradinska tvrđava</b> Izgrađena u 18. veku, predstavlja simbol grada.
-            Poznata po sat kuli sa obrnutim kazaljkama i kao domaćin EXIT festivala.
-        </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p><img src="trg slobode.jpg" alt="Trg slobode" width="200" height="200"></p>
+                        <b>Trg slobode</b>
+                        <p>Glavni gradski trg, okružen znamenitim zgradama.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.638843613004!2d19.841879912325027!3d45.25509544724495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b1068523e9a51%3A0x12e813f517b91839!2z0KLRgNCzINGB0LvQvtCx0L7QtNC1LCDQndC-0LLQuCDQodCw0LQ!5e0!3m2!1ssr!2srs!4v1734356417610!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p><img src="crkva imena marijinog.jpg" alt="Katedrala imena Marijinog" width="200" height="200"></p>
+                        <b>Katedrala imena Marijinog</b>
+                        <p>Impresivna katolička crkva na Trgu slobode.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2361.7719115181267!2d19.842394571651234!3d45.25515372688476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b106858fe513d%3A0xb816502dc083f616!2z0KbRgNC60LLQsCDQmNC80LXQvdCwINCc0LDRgNC40ZjQuNC90LA!5e0!3m2!1ssr!2srs!4v1734356468651!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                    </div>
+                </div>
+            </div>
 
-        <div>
-            <p>
-                <img src="espresso.jpeg" alt="Espresso" width="200" height="200">
-            </p>
-            <b>Trg slobode</b> Glavni gradski trg, okružen znamenitim zgradama poput Gradske kuće i katedrale imena Marijinog.
-        </div>
-
-        <div>
-            <p>
-                <img src="espresso.jpeg" alt="Espresso" width="200" height="200">
-            </p>
-            <b>Katedrala imena Marijinog</b> Impresivna katolička crkva na Trgu slobode, poznata po svom neogotičkom stilu i vitražima.
-        </div>
-
-        <div>
-            <p>
-                <img src="espresso.jpeg" alt="Espresso" width="200" height="200">
-            </p>
-            <b>Srpsko narodno pozoriste</b> Kulturni simbol grada sa bogatim repertoarom dramskih, opernih i baletskih predstava.
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <p><img src="muzej vojvodine.jpg" alt="Trg slobode" width="200" height="200"></p>
+                        <b>Muzej Vojvodine</b>
+                        <p>Istorijski i etnološki muzej sa kolekcijama iz raznih istorijskih perioda</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.5737196609166!2d19.84686065622409!3d45.25641217292475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b1065f4aa29fb%3A0x4a2235215f3e88c8!2z0JzRg9C30LXRmCDQktC-0ZjQstC-0LTQuNC90LU!5e0!3m2!1ssr!2srs!4v1734356511524!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    
 
     <div class="card">
         <h2 id="HP">Hrana</h2>
