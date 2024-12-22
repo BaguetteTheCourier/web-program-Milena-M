@@ -12,23 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
-<style>
-    table, td, th {
-        border: 2px solid black;
-        border-collapse: collapse;
-    } 
-</style>
 <body style = "background-color: #E4E0E1;">
     <div class="header">
         <h1>Zrnca vrednosti</h1>
     </div>
     <div class="nav">
         <ul>
-            <li><a class="active" href="#VK">Vrste kafe</a></li>
-            <li><a href="#KP">Priprema</a></li>
-            <li><a href="#RZU">Resursi za ucenje</a></li>
+            <li><a href="#ME">Meni</a></li>
             <li><a href="#RV">Radno vreme</a></li>
-            <li><a href="#M">Meni</a></li>
+            <li><a href="#CE">Cenovnik</a></li>
+            <li><a href="#ON">O Nama</a></li>
+            <li><a href="#KP">Kako pripremiti</a></li>
+            <li><a href="#KN">Kontaktiraj nas</a></li>
+            
         </ul>
     </div>
 
@@ -37,9 +33,11 @@
         <p class="roboto-condensedBela ">Kafa dolazi u raznim oblicima i ukusima, a svaka vrsta ima svoje jedinstvene karakterisike.</p>
     </div>
     
-    <h2 id="VK", class="roboto-condensed">Vrste kafe</h1>
+    <h2 id="ME", class="header2">Meni</h1>
 
     <div class = "card">
+
+        <h2 class ="header2">Topli napici</h2>
 
         <div class = "flex-container">
 
@@ -72,94 +70,428 @@
                 <p>
                     <img src="americano.jpg" alt="Americano" width="200" height="200">
                     </p>
-                    <b>Americano:</b> Espresso razblazen vodom
+                    <b>Domaca kafa</b> Kafa kuvana u dzezvi
+            </div>
+
+            <div class="card-client">
+                
+                <p>
+                    <img src="mocha.jpg" alt="Mocha" width="200" height="200">
+                    </p>
+                    <b>Mocha:</b> Kombinacija espresa, mlečne pene i čokolade.
             </div>
         </div>
-    </div>
-    <hr>
-    <div class="card">
-        <h2 id="KP", class="roboto-condensed"><b>Kako pripremiti</b></h2>
-        <dl class = "roboto-condensed">
-            <dt><b>Espresso</b></dt>
-            <dd>Pripremite espresso aparat i finu kafu. Priprema traje oko 25-30 sekundi.</dd>
-            <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/ZuQu12vMQZM?si=uinhilsNEPlmRcS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></dd>
-                
-            <dt><b>Latte</b></dt>
-            <dd>Pripremite espresso, zagrejte mleko i dodajte ga u espresso sa malo pene</dd>
-            <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/UxwscVIZ8Qg?si=SnfqfbrHkuUMzjmh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </dd>
 
-            <dt><b>Cappuccino</b></dt>
-            <dd>Pripremite espresso, dodajte jednaku kolicinu mleka i pene</dd>
-            <dd><iframe width="560" height="315" src="https://www.youtube.com/embed/gvPetTPFsZM?si=GmnOxeREJyhsjuXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </dd>
-        </dl>
+        <h2 class ="header2">Hladni napici</h2>
+        
+        <div class="flex-container">
+
+                <div class="card-client">
+                    <p>
+                        <img src="koka_kola.jpg" alt="koka_kola" width="200" height="200">
+                    </p>
+                    <b>Koka Kola:</b> Osvežavajući gazirani napitak sa slatkim ukusom.
+            
+                </div>
+    
+                <div class="card-client">
+                    <p>
+                        <img src="next-sok.jpg" alt="NextSok" width="200" height="200">
+                    </p>
+                    <b>Next:</b> Negazirani napitak koji dolazi u raznim ukusima.
+                </div>
+
+                <div class="card-client">
+                    <p>
+                        <img src="kisela_voda.jpg" alt="KiselaVoda" width="200" height="200">
+                    </p>
+                    <b>Knjaz Milos:</b> Prirodna gazirana mineralna voda osvežavajućeg ukusa.
+                </div>
+
+                <div class="card-client">
+                    <p>
+                        <img src="limunada.jpg" alt="Limunada" width="200" height="200">
+                    </p>
+                    <b>Limunada:</b> Osvežavajući napitak od cedjenog svežeg limuna i vode.
+                </div>
+
+                <div class="card-client">
+                    <p>
+                        <img src="frappe (1).jpg" alt="Frappe" width="200" height="200">
+                    </p>
+                    <b>Frappe:</b> Kremasti hladni napitak od kafe, mleka i leda. Ima razne ukuse.
+                </div>
+        </div>
+
+        <h2 class ="header2">Dezerti</h2>
+        
+        <div class="flex-container">
+
+                <div class="card-client">
+                    <p>
+                        <img src="palacinka.jpeg" alt="Palacinka" width="200" height="200">
+                    </p>
+                    <b>Crepe Palacinke:</b> Tanke i mekane, idealne za slatke i slane nadeve.
+            
+                </div>
+    
+                <div class="card-client">
+                    <p>
+                        <img src="americke.jpg" alt="Americke" width="200" height="200">
+                    </p>
+                    <b>Americke Palacinke:</b> Debele, vazdušaste palačinke, savršene za sirupe, voće ili maslac.
+                </div>
+
+                <div class="card-client">
+                    <p>
+                        <img src="sladoled.jpg" alt="Sladoled" width="200" height="200">
+                    </p>
+                    <b>Sladoled:</b> Osvežavajuća, smrznuta poslastica kremaste teksture, dostupna u raznim ukusima.
+                </div>
+
+                <div class="card-client">
+                    <p>
+                        <img src="vafl.jpg" alt="Waffle" width="200" height="200">
+                    </p>
+                    <b>Waffle:</b> Hrskava i mekana poslastica od testa, pečena u rebrastom kalupu.
+                </div>
+
+                <div class="card-client">
+                    <p>
+                        <img src="cheesecake.jpg" alt="Cheesecake" width="200" height="200">
+                    </p>
+                    <b>Cheesecake:</b> Kremasti dezert na bazi sira, na podlozi od keksa, sa voćnim, čokoladnim ili karamel prelivom.
+                </div>
+        </div>
     </div>
-    <hr>
-    <h2 id="RZU">Resursi za ucenje</h2>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Perfect Daily Grind</a></li>
-        <li><a href="https://www.youtube.com/watch?v=OjNpRbNdR7E">Coffee house</a></li>
-    </ul>
-    <hr>
-    <h2 id="RV">Radno vreme</h2>
-    <table style="width: 40%">
-        <tr>
-            <th colspan="7">Radno vreme</th>
-        </tr>
-        <tr>
-            <th style="width: 15%;">Pon</th>
-            <th style="width: 15%;">Uto</th>
-            <th style="width: 15%;">Sre</th>
-            <th style="width: 15%;">Cet</th>
-            <th style="width: 15%;">Pet</th>
-            <th style="width: 15%;">Sub</th>
-            <th style="width: 15%;">Ned</th>
-        </tr>
-        <tr>
-            <td>9:00-01:00</td>
-            <td>9:00-01:00</td>
-            <td>9:00-01:00</td>
-            <td>9:00-01:00</td>
-            <td>9:00-01:00</td>
-            <td>9:00-01:00</td>
-            <td>9:00-01:00</td>
-        </tr>
-    </table>
-    <hr>
-    <h2 id="M">Meni</h2>
-    <table style="width: 10%;">
-        <tr>
-            <th colspan="2">Meni</th>
-        </tr>
-        <tr>
-            <th style="width: 30%;">Pice</th>
-            <th style="width: 5%">Cena</th>
-        </tr>
-        <tr>
-            <td>Espresso</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>Domaca kafa</td>
-            <td>110</td>
-        </tr>
-        <tr>
-            <td>Nes kafa</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>Cappucino</td>
-            <td>130</td>
-        </tr>
-        <tr>
-            <td>Americano</td>
-            <td>140</td>
-        </tr>
-    </table>
-    <h1><a href="navigacija.html">Povratak na pocetnu</a></h1>
-    <audio autoplay>
-        <source src="Bioshock - La Mer - Django Reinhardt & Stephane Grappelli - P2T2 (youtube).mp3" type="audio/mp3">
-        </audio>
+
+    
+    <div class = "card">
+        <div class="flex-container">
+            <table style="width: 40%">
+                <tr>
+                    <th colspan="7", id="RV">Radno vreme</th>
+                </tr>
+                <tr>
+                    <th style="width: 15%;">Pon</th>
+                    <th style="width: 15%;">Uto</th>
+                    <th style="width: 15%;">Sre</th>
+                    <th style="width: 15%;">Cet</th>
+                    <th style="width: 15%;">Pet</th>
+                    <th style="width: 15%;">Sub</th>
+                    <th style="width: 15%;">Ned</th>
+                </tr>
+                <tr>
+                    <td>9:00-01:00</td>
+                    <td>9:00-01:00</td>
+                    <td>9:00-01:00</td>
+                    <td>9:00-01:00</td>
+                    <td>9:00-01:00</td>
+                    <td>9:00-01:00</td>
+                    <td>9:00-01:00</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="centar">
+            <div class="cardMap">
+                <div class="content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2755.4865763139364!2d30.056853622123963!3d51.40642745479098!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ssr!2srs!4v1734799251220!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card">
+        
+        <div class="menu-container">
+            <h2 id="CE", class="roboto-condensedBela">Cenovnik</h2>
+            <table class="menu-table">
+                <thead>
+                    <tr>
+                        <th>Pice</th>
+                        <th>Cena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Espresso</td>
+                        <td>150din</td>
+
+                    </tr>
+                    <tr>
+                        <td>Latte</td>
+                        <td>150din</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>130din</td>
+                    </tr>
+                    <tr>
+                        <td>Domaca kafa</td>
+                        <td>120din</td>
+                    </tr>
+                    <tr>
+                        <td>Mocha</td>
+                        <td>150din</td>
+                    </tr>
+                    <tr>
+                        <td>Koka Kola</td>
+                        <td>210din</td>
+                    </tr>
+                    <tr>
+                        <td>Next Sok<br>(Jabuka, pomarandza, jagoda, breskva)</td>
+                        <td>210din</td>
+                    </tr>
+                    <tr>
+                        <td>Knjaz Milos</td>
+                        <td>160din</td>
+                    </tr>
+                    <tr>
+                        <td>Limunada</td>
+                        <td>160din</td>
+                    </tr>
+                    <tr>
+                        <td>Frappe<br>(Cokolada, jagoda, banana)</td>
+                        <td>150din</td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>Dezert</th>
+                        <th>Cena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Crepe Palacinke</td>
+                        <td>220din</td>
+                    </tr>
+                    <tr>
+                        <td>Americke Palacinke</td>
+                        <td>250din</td>
+                    </tr>
+                    <tr>
+                        <td>Sladoled<br>(3 kugle)</td>
+                        <td>240din</td>
+                    </tr>
+                    <tr>
+                        <td>Waffle</td>
+                        <td>230din</td>
+                    </tr>
+                    <tr>
+                        <td>Cheesecake</td>
+                        <td>240din</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class = "card">
+        <h2 id="ON", class="header2">O nama</h2>
+        <div class="centar">
+            <p class="roboto-condensed">Zrnca vrednosti – mesto gde svaki trenutak ima posebnu težinu. Naš kafić spaja ljubav prema vrhunskoj kafi, ukusnim zalogajima i toplom ambijentu.
+            <br>Verujemo da su sitnice ono što život čini vrednim – zato svaka šoljica, osmeh i detalj kod nas nosi zrnce pažnje. Dođite da zajedno stvaramo male rituale koji znače mnogo!
+            </p>
+        </div>
+        
+        <div class="flex-container">
+            <div class="card-client">
+                <div class="user-picture">
+                    <img src="batman.jpg" alt="Batman" width="200" height="200">
+                </div>
+                <div class="name-client">
+                    Milena Marković
+                    <span>
+                        Vlasnik
+                    </span>
+                </div>
+            </div>
+            <div class="card-client">
+                <div class="user-picture">
+                    <img src="pyrocynical.jpg" alt="PyroCynical" width="200" height="200">
+                </div>
+                <div class="name-client">
+                    Neil Murphy
+                    <span>
+                        aka. PyroCynical konobar
+                    </span>
+                </div>
+            </div>
+            <div class="card-client">
+                <div class="user-picture">
+                    <img src="ryangosling.jpg" alt="RyanGosling" width="200" height="200">
+                </div>
+                <div class="name-client">
+                    Holland March
+                    <span>
+                        Šanker
+                    </span>
+                </div>
+            </div>
+            <div class="card-client">
+                <div class="user-picture">
+                    <img src="princeza bob.jpg" alt="PrincezaBob" width="200" height="200">
+                </div>
+                <div class="name-client">
+                    Princeza Bob
+                    <span>
+                        Bob the Necromancer aka. sanker
+                    </span>
+                </div>
+            </div>
+            <div class="card-client">
+                <div class="user-picture">
+                    <img src="gordon freeman.jpg" alt="GordonFreeman" width="200" height="200">
+                </div>
+                <div class="name-client">
+                    Gordon Freeman
+                    <span>
+                        Gordon Freeman
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h2 id="KP", class="header2"><b>Kako pripremiti</b></h2>
+        <div class="flex-container">
+            <div class="cardVideo">
+                <div class="cardVideo-image-container">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/ZuQu12vMQZM?si=uinhilsNEPlmRcS0" 
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="cardVideo-title">Espresso</p>
+                <p class="cardVideo-des">Pripremite espresso aparat i finu kafu. Priprema traje oko 25-30 sekundi.</p>
+                <a href="https://www.youtube.com/watch?v=ZuQu12vMQZM" target="_blank" rel="noopener noreferrer" class="cardVideo-btn">
+                    <span class="cardVideo-btn-text">Gledaj video</span>
+                </a>
+            </div>
+
+            <div class="cardVideo">
+                <div class="cardVideo-image-container">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/UxwscVIZ8Qg?si=SnfqfbrHkuUMzjmh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="cardVideo-title">Latte</p>
+                <p class="cardVideo-des">Pripremite espresso, zagrejte mleko i dodajte ga u espresso sa malo pene</p>
+                <a href="https://www.youtube.com/embed/UxwscVIZ8Qg?si=SnfqfbrHkuUMzjmh" target="_blank" rel="noopener noreferrer" class="cardVideo-btn">
+                    <span class="cardVideo-btn-text">Gledaj video</span>
+                </a>
+            </div>
+
+            <div class="cardVideo">
+                <div class="cardVideo-image-container">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/gvPetTPFsZM?si=GmnOxeREJyhsjuXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="cardVideo-title">Cappuccino</p>
+                <p class="cardVideo-des">Pripremite espresso, dodajte jednaku kolicinu mleka i pene</p>
+                <a href="https://www.youtube.com/embed/gvPetTPFsZM?si=GmnOxeREJyhsjuXi" target="_blank" rel="noopener noreferrer" class="cardVideo-btn">
+                    <span class="cardVideo-btn-text">Gledaj video</span>
+                </a>
+            </div>
+
+        </div>
+    
+    </div>
+
+    <div class="card">
+        <div class="cardForm">
+        <h2 id ="KN", class="header2">Kontaktiraj nas</h2>
+        <div class="flexForm-container">
+            <p class="roboto-condensed">
+                Lenin Square, Pripyat,<br>Chernobyl Exclusion Zone,<br>Ukraine<br>
+                Broj telefona: 062 2641986<br>
+                Mail: zrncavrednosti@gmail.com
+            </p>
+    
+            <form class="form">
+                <div class="title">Contact us</div>
+                <input type="text" placeholder="Your email" class="input">
+                <textarea placeholder="Your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    
+    <div class="card">
+        <div class="flex-container">
+                
+            <ul class="example-2">
+                <li class="icon-content">
+                    <a href="https://github.com/BaguetteTheCourier/web-program-Milena-M" aria-label="GitHub" data-social="github">
+                      <div class="filled"></div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                        xml:space="preserve"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </a>
+                    <div class="tooltip">GitHub</div>
+                  </li>
+                  <li class="icon-content">
+                    <a
+                      href="https://www.instagram.com/baguettethecourier/"
+                      aria-label="Instagram"
+                      data-social="instagram"
+                    >
+                      <div class="filled"></div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-instagram"
+                        viewBox="0 0 16 16"
+                        xml:space="preserve"
+                      >
+                        <path
+                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </a>
+                    <div class="tooltip">Instagram</div>
+                  </li>
+                  <li class="icon-content">
+                    <a href="https://www.youtube.com/@Pyrocynical" aria-label="Youtube" data-social="youtube">
+                      <div class="filled"></div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-youtube"
+                        viewBox="0 0 16 16"
+                        xml:space="preserve"
+                      >
+                        <path
+                          d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </a>
+                    <div class="tooltip">Youtube</div>
+                  </li>
+                </ul>
+                
+        </div>
+    </div>
+    
 </body>
 </html>
