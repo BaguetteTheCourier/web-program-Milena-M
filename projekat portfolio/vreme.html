@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vreme.plov</title>
+    <link rel = "stylesheet" href="vreme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="vreme.js" defer></script>
+</head>
+<body onload="time('BG')">
+    <div class="pozadina">
+    <h1>Vreme.plov</h1>
+       <div class="container">
+        <div class="tekst">
+            <h3 id="time"></h3>
+        </div>
+        <div class="sat">
+            <span id="h">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
+        </div>
+       </div> 
+       <div class="containerDugmici">
+        <button class="beautiful-button" id = "LA">
+            Los Angeles
+        </button>
+        <button class="beautiful-button" id = "NY">
+            New York
+        </button>
+        <button class="beautiful-button" id = "LO">
+            London
+        </button>
+        <button class="beautiful-button" id = "BG">
+            Beograd
+        </button>
+        <button class="beautiful-button" id = "BE">
+            Beijing
+        </button>
+        <button class="beautiful-button" id = "TO">
+            Tokyo
+        </button>
+       </div>
+    </div>
+    
+    
+</body>
+</html>
