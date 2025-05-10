@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="epikBMIkalkulatorStil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="ostarCMozeBoljeBMI.js" defer></script>
+    <title>Document</title>
+</head>
+<body style="background-color: #fef0ff;">
+<div class="container">
+    <div class="form_area">
+        <p class="title">BMI kalkulator</p>
+        <form action="" onsubmit="return false;"> <!-- sprečava reload -->
+    <div class="form_group">
+        <label class="sub_title" for="godine">Starost</label>
+        <input placeholder="Unesi svoju starost" id="godine" class="form_style" type="number">
+    </div>
+    <div class="form_group">
+        <label class="sub_title" for="visina">Visina (u cm)</label>
+        <input placeholder="Unesi svoju visinu" id="visina" class="form_style" type="number" step="0.01">
+    </div>
+    <div class="form_group">
+        <label class="sub_title" for="tezina">Težina (u kg)</label>
+        <input placeholder="Unesi svoju težinu" id="tezina" class="form_style" type="number">
+    </div>
+
+    <div class="mydict">
+        <div>
+            <!-- Svi radio dugmići imaju isti name="pol" -->
+            <label>
+                <input type="radio" name="pol" id="zensko" value="zensko" checked>
+                <span>Zensko</span>
+            </label>
+            <label>
+                <input type="radio" name="pol" id="musko" value="musko">
+                <span>Musko</span>
+            </label>
+            <label>
+                <input type="radio" name="pol" id="sigma" value="sigma">
+                <span>Sigma</span>
+            </label>
+        </div>
+    </div>
+
+    <div>
+        <button type="button" class="btn" id="calculateBtn">Get disappointed</button>
+        <p>Ne zelis da se razocaras? <a class="link" href="https://youtube.com/@futurecanoe?si=AOeETRItkeuTaIwG">Klikni ovde!</a></p>
+    </div>
+</form>
+</a></div>
+
+<div id="result" style="text-align: center; font-size: 1.5rem; margin-top: 20px;"></div>
+</body>
+</html>
