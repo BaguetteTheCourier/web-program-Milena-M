@@ -6,7 +6,7 @@ let timeLabel = document.getElementById("time");
 let x; // interval variable
 
 function setCity(city) {
-    document.body.className = city;
+    document.body.className = `pozadina ${city}`;
 }
 
 function time(city) {
